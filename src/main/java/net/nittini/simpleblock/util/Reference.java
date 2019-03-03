@@ -1,7 +1,7 @@
 package net.nittini.simpleblock.util;
 
 public class Reference {
-    public static final String MOD_ID="net_nittini_simpleblock";
+    public static final String MOD_ID="nittini_simpleblock";
     public static final String NAME="SimpleBlock";
     public static final String VERSION="1.0";
     public static final String ACCEPTED_VERSIONS="[1.12.2]"; // Accepted Minecraft versions

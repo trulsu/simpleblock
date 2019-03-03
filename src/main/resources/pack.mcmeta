@@ -1,0 +1,7 @@
+{
+    "pack" : {
+        "description" : "simpleblock resources",
+        "pack_format" : 3,
+        "_comment" : "This file is needed for the resources to load"
+    }
+}

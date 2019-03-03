@@ -1,8 +1,12 @@
-package net.nittini.simpleblock.item;
+package net.nittini.simpleblock.items;
 
+import net.nittini.simpleblock.SimpleBlock;
 import net.nittini.simpleblock.util.IHasModel;
+import net.nittini.simpleblock.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.createtab.CreateTabs;
+
 
 public class ItemBase extends Item implements IHasModel {
 	
@@ -16,6 +20,6 @@ public class ItemBase extends Item implements IHasModel {
 
 	@Override
 	public void registerModels() {
-		Main.Proxy.registerItemRenderer(this,0,"inventory");
+		SimpleBlock.proxy.registerItemRenderer(this,0,"inventory");
 	}
 }

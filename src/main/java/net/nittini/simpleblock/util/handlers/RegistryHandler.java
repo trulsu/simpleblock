@@ -1,11 +1,12 @@
 package net.nittini.simpleblock.util.handlers;
 
 import net.nittini.simpleblock.init.ModItems;
-import net.nittini.simpleblock.item.Item;
+
 import net.nittini.simpleblock.util.IHasModel;
 
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -18,9 +19,9 @@ public class RegistryHandler {
 
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
-		for(Item item : ModItems.Items) {
+		for(Item item : ModItems.ITEMS) {
 			if(item instanceof IHasModel) {
-				((IhasModel)item).registerModels();
+				((IHasModel)item).registerModels();
 			}
 		}
 	}
