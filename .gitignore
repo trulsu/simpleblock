@@ -6,7 +6,9 @@ gradle/*
 build/*
 .gradle/*
 run/*
-
+bin/
+.classpath
+wq
 # Visual studio code files
 .project
 .settings

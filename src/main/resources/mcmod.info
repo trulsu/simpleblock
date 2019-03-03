@@ -1,0 +1,12 @@
+[{
+  "modid": "net_nittini_simpleblock",
+  "name": "Simple block from nittini",
+  "description": "Just the simplest block as an example",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "logoFile": "",
+  "url": "nittini.net/",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Truls Unstad"],
+  "credits": "Forge documentation and Udemy"
+}]
