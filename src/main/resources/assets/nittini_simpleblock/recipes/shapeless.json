@@ -1,0 +1,15 @@
+{
+    "type" : "minecraft:crafting_shapeless",
+    "ingredients" : [
+        {
+            "item" : "net_nittini_simpleblock:ruby"
+        },
+        {
+            "item" : "net_nittini_simpleblock:ruby"
+        }
+    ],
+    "result" : {
+        "item" : "net_nittini_simpleblock:ruby_block",
+        "count" : 1
+    }
+}
