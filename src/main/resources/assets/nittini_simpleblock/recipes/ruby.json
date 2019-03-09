@@ -1,0 +1,17 @@
+{
+    "type" : "minecraft:crafting_shaped",
+    "pattern" : [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    "key" : {
+        "R" : {
+            "item" : "net_nittini_simpleblock:ruby"
+        }
+    },
+    "result" : {
+        "item" : "net_nittini_simpleblock:ruby_block",
+        "count" : 1
+    }
+}
