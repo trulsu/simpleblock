@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.nittini.simpleblock.init.ModRecipes;
 import net.nittini.simpleblock.proxy.*;
 
 @Mod(modid=Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
@@ -25,7 +26,7 @@ public class SimpleBlock {
 
     @EventHandler
     public static void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @EventHandler

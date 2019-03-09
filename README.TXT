@@ -55,3 +55,5 @@ src/main/resources/mcmod.info
   "credits": "I'd like to thank my mother and father."
 }]
 
+Crafting recipes help: https//crafting.thedestruc7i0n.ca
+
