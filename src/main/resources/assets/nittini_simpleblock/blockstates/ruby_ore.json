@@ -1,0 +1,7 @@
+{
+    "variants" : {
+        "normal" : {
+            "model" : "nittini_simpleblock:ruby_ore"
+        }
+    }
+}

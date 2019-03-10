@@ -4,6 +4,7 @@ item.ruby.name=Ruby
 
 // Blocks
 tile.ruby_block.name=Block of Ruby
+title.ruby_ore.name=Ruby Ore
 
 // Tools
 item.ruby_sword.name=Ruby Sword
