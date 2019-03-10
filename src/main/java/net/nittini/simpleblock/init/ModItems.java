@@ -2,6 +2,7 @@ package net.nittini.simpleblock.init;
 
 import net.nittini.simpleblock.items.ItemBase;
 import net.nittini.simpleblock.items.armor.ArmorBase;
+import net.nittini.simpleblock.items.food.FoodBase;
 import net.nittini.simpleblock.items.tools.ToolAxe;
 import net.nittini.simpleblock.items.tools.ToolHoe;
 import net.nittini.simpleblock.items.tools.ToolPickaxe;
@@ -45,4 +46,7 @@ public class ModItems {
 	public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
 	public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
 	public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
+
+	// Food
+	public static final Item EVIL_APPLE = new FoodBase("evil_apple", 4, 2.4f, false);
 }
