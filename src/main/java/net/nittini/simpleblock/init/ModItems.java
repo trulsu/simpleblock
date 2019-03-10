@@ -3,12 +3,14 @@ package net.nittini.simpleblock.init;
 import net.nittini.simpleblock.items.ItemBase;
 import net.nittini.simpleblock.items.armor.ArmorBase;
 import net.nittini.simpleblock.items.food.FoodBase;
+import net.nittini.simpleblock.items.food.FoodEffectBase;
 import net.nittini.simpleblock.items.tools.ToolAxe;
 import net.nittini.simpleblock.items.tools.ToolHoe;
 import net.nittini.simpleblock.items.tools.ToolPickaxe;
 import net.nittini.simpleblock.items.tools.ToolSpade;
 import net.nittini.simpleblock.items.tools.ToolSword;
 import net.nittini.simpleblock.util.Reference;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -19,6 +21,7 @@ import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
@@ -48,5 +51,6 @@ public class ModItems {
 	public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
 
 	// Food
-	public static final Item EVIL_APPLE = new FoodBase("evil_apple", 4, 2.4f, false);
+	//public static final Item EVIL_APPLE = new FoodBase("evil_apple", 4, 2.4f, false);
+	public static final Item EVIL_APPLE = new FoodEffectBase("evil_apple", 4, 2.4f, false, new PotionEffect(MobEffects.POISON, 60*20, 1, false, true));
 }
