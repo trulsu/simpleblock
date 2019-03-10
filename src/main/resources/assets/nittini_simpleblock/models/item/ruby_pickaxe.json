@@ -1,0 +1,6 @@
+{
+    "parent" : "item/handheld",
+    "textures" : {
+        "layer0" : "nittini_simpleblock:items/ruby_pickaxe"
+    }
+}
